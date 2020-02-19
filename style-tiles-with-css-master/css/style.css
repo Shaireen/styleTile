@@ -249,7 +249,7 @@ ul li:last-child {
 
 
 .secondary-button:hover {
-      color: black;
+  color: white;
   background: var(--color-4);
 
 }
