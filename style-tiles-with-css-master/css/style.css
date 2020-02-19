@@ -16,8 +16,8 @@ use the fonts in other ways in the font hierarchy etc. */
 :root {
     --main-color: #0A0A0A;
     --nav-color: #1C1C1C;
-    --link-color: #C72425;
-    --link-hover-color: #B3B3B3;
+    --header-color: #C72425;
+    --link-color: #B3B3B3;
     --color-4: #3A76DE;
     --color-5: #fff;
 
@@ -91,7 +91,7 @@ footer {
 
 .header-wrapper h2 {
     font-size: 2em;
-    color: var(--link-color);
+    color: var(--header-color);
     font-weight: bold;
     margin: var(--white-space) 0;
     font-family: var(--display-font);
@@ -145,7 +145,7 @@ ul li:last-child {
 }
 
 .color-swatch-2 {
-    background-color: var(--link-color);
+    background-color: var(--header-color);
 }
 
 .color-swatch-3 {
@@ -156,7 +156,7 @@ ul li:last-child {
 }
 
 .color-swatch-4 {
-    background-color: var(--link-hover-color);
+    background-color: var(--link-color);
 
 
 
@@ -209,7 +209,7 @@ ul li:last-child {
   right: 0;
   bottom: 0;
   height: 100%;
-  background: var(--link-color);
+  background: var(--header-color);
   z-index: -1;
   transform: translate3D(0,-100%,0);
   transition: all .5s;
@@ -249,12 +249,12 @@ ul li:last-child {
 
 
 .secondary-button:hover {
-      color: white;
+      color: black;
   background: var(--color-4);
 
 }
 
-.textures > img {
+.logo > img {
     padding: 1rem;
 }
 /*button:focus,
@@ -271,7 +271,7 @@ button:focus-within {
 .h1-sample {
     font-size: 2.4rem;
     font-family: var(--display-font);
-    color: var(--link-color);
+    color: var(--header-color);
 }
 
 .h2-sample {
@@ -297,7 +297,7 @@ em {
 
 a {
     font-family: var(--primary-font);
-    color: var(--link-hover-color);
+    color: var(--link-color);
 
     transition: all 0.2s;
 }
